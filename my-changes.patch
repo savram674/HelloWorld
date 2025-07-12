@@ -1,0 +1,15 @@
+diff --git a/d.txt b/d.txt
+index 5ec7f6a..04bfc92 100644
+--- a/d.txt
++++ b/d.txt
+@@ -1,5 +1,6 @@
+-colla
+ merge
+ checking conflict and merge
++i am using this edit to demonstrate patch.
+ merge from web
+-merge
+\ No newline at end of file
++merge
++patch depicts the code changes which can be shared without push.
+\ No newline at end of file
