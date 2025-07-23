@@ -1,0 +1,50 @@
+From baaf073c883ab55cfbc6013e8a20728fd5a5bed7 Mon Sep 17 00:00:00 2001
+From: savram674 <savitharamesh674@gmail.com>
+Date: Sat, 12 Jul 2025 19:15:42 +0530
+Subject: [PATCH] patch
+
+---
+ d.txt            |  5 +++--
+ my-changes.patch | 15 +++++++++++++++
+ 2 files changed, 18 insertions(+), 2 deletions(-)
+ create mode 100644 my-changes.patch
+
+diff --git a/d.txt b/d.txt
+index 5ec7f6a..04bfc92 100644
+--- a/d.txt
++++ b/d.txt
+@@ -1,5 +1,6 @@
+-colla
+ merge
+ checking conflict and merge
++i am using this edit to demonstrate patch.
+ merge from web
+-merge
+\ No newline at end of file
++merge
++patch depicts the code changes which can be shared without push.
+\ No newline at end of file
+diff --git a/my-changes.patch b/my-changes.patch
+new file mode 100644
+index 0000000..defe114
+--- /dev/null
++++ b/my-changes.patch
+@@ -0,0 +1,15 @@
++diff --git a/d.txt b/d.txt
++index 5ec7f6a..04bfc92 100644
++--- a/d.txt
+++++ b/d.txt
++@@ -1,5 +1,6 @@
++-colla
++ merge
++ checking conflict and merge
+++i am using this edit to demonstrate patch.
++ merge from web
++-merge
++\ No newline at end of file
+++merge
+++patch depicts the code changes which can be shared without push.
++\ No newline at end of file
+-- 
+2.50.0.windows.2
+
